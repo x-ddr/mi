@@ -1,10 +1,9 @@
-name: run
+name: 'GitHub Actions run'
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: 
+      - master
   schedule:
     - cron: 0 10 * * *
 
